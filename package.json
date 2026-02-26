@@ -1,0 +1,18 @@
+{
+  "name": "task-manager-jest",
+  "version": "1.0.0",
+  "description": "Simple task manager project with Jest tests",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:unit": "jest tests/taskManager.test.js --runInBand",
+    "test:functional": "jest tests/app.test.js --runInBand"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
