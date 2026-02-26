@@ -30,35 +30,28 @@
 ## Запуск проекта
 
 Для запуска сервера:
-
 node .\src\app.js
 
 После запуска сервер доступен по адресу:
-
 http://localhost:3000
 
 Для просмотра списка задач можно открыть:
-
 http://localhost:3000/tasks
 
 ## Установка зависимостей
 
 Стандартная команда:
-
 npm install
 
 ## Запуск тестов
 
 Запуск всех тестов:
-
 npm.cmd test
 
 Запуск только unit-тестов:
-
 npm.cmd run test:unit
 
 Запуск только functional-тестов:
-
 npm.cmd run test:functional
 
 ## Результаты тестирования
@@ -78,4 +71,5 @@ npm.cmd run test:functional
 ### Структура проекта
 
 ![Структура проекта](./tests_result/VSCodium_9PumMp6Q91.png)
+
 
